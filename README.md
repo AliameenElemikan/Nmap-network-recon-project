@@ -24,3 +24,7 @@ All scans were performed only against systems I own or have explicit permission 
 ### 1) Basic service + OS detection
 ```bash
 nmap -sV -O <TARGET_IP> -oN scans/basic.txt
+nmap --top-ports 1000 -sV <TARGET_IP> -oN scans/top-ports.txt
+nmap -sV --script "default and safe" <TARGET_IP> -oN scans/nse-safe.txt
+nmap -sV <TARGET_IP> -oX scans/scan.xml
+
