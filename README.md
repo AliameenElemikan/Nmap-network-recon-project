@@ -61,6 +61,26 @@ Open ports increase the system’s attack surface.
 
 ### Command Used
 
+### Purpose
+Scanned the local subnet to discover active devices and detect open ports.
+
+### Screenshot
+![Subnet Scan](screenshots/02-subnet-scan.png)
+
+### Analyst Insight
+Subnet scanning helps identify:
+- Unauthorized devices
+- Unexpected open services
+- Shadow IT systems
+
+This mirrors real-world lateral reconnaissance techniques used by attackers.
+
+---
+
+# 🔎 Phase 3 – Advanced Enumeration Scan
+
+### Command Used
+
 The `-A` flag enables:
 - OS detection
 - Version detection
