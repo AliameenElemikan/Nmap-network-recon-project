@@ -49,7 +49,7 @@ and document findings in a structured, professional format.
 Performed a TCP SYN (stealth) scan to identify open TCP ports on the local machine.
 
 ### Screenshot
-![Basic Scan](screenshots/01-basic-scan.png)
+![Basic Scan](01-basic-scan.png)
 
 ### Analyst Insight
 This scan identifies exposed services that could be targeted during reconnaissance.
@@ -65,7 +65,7 @@ Open ports increase the system’s attack surface.
 Scanned the local subnet to discover active devices and detect open ports.
 
 ### Screenshot
-![Subnet Scan](screenshots/02-subnet-scan.png)
+![Subnet Scan](02-subnet-scan.png)
 
 ### Analyst Insight
 Subnet scanning helps identify:
@@ -91,7 +91,7 @@ The `-A` flag enables:
 
 ## Open Ports & Service Versions
 
-![Advanced Scan - Ports](screenshots/03-advanced-scan-ports.png)
+![Advanced Scan - Ports](03-advanced-scan-ports.png)
 
 ### Analysis
 This section identifies:
@@ -106,7 +106,7 @@ as outdated services may contain known exploits.
 
 ## Operating System Fingerprinting
 
-![Advanced Scan - OS](screenshots/04-advanced-scan-os.png)
+![Advanced Scan - OS](04-advanced-scan-os.png)
 
 ### Analysis
 OS detection provides:
@@ -120,7 +120,7 @@ Attackers use OS detection to tailor exploitation techniques.
 
 ## Nmap Scripting Engine (NSE) Results
 
-![Advanced Scan - Scripts](screenshots/05-advanced-scan-scripts.png)
+![Advanced Scan - Scripts](05-advanced-scan-scripts.png)
 
 ### Analysis
 NSE scripts provide deeper visibility into:
